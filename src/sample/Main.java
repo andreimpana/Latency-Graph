@@ -53,11 +53,11 @@ public class Main extends Application {
 
         //define a series to display data
         XYChart.Series<String, Number> current_ping = new XYChart.Series<>();
-        current_ping.setName("Data Series");
+        current_ping.setName("Latency");
 
         //define average series
         XYChart.Series<String, Number> avg = new XYChart.Series<>();
-        avg.setName("Avg Ping");
+        avg.setName("Average latency ");
 
         // add series to chart
         lineChart.getData().add(current_ping);
